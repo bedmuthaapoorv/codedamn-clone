@@ -1,0 +1,31 @@
+.HomeScreen {
+  display: flex;
+  justify-content: center;
+}
+
+.HomeScreen__content {
+  width: 90vw;
+  display: flex;
+  margin-top: 56px;
+  margin-bottom: 64px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.HomeScreen__content .HomeScreen__contentTitle {
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+.HomeScreen__content .HomeScreen__LanguageCards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  justify-content: space-evenly;
+}
+.HomeScreen__content .HomeScreen__contentDesc {
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}/*# sourceMappingURL=HomeScreen.module.css.map */

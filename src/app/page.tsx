@@ -1,8 +1,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import components from "./components/Components";
 
 export default function Home() {
   return (
-    <div>hello</div>
+    <components.HomeScreen></components.HomeScreen>
   );
 }

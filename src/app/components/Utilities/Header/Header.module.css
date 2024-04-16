@@ -1,0 +1,46 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  height: 56px;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 2.5vw;
+}
+.Header .Header__ParentFlex {
+  display: flex;
+  width: 95vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 28px;
+}
+.Header .Header__ParentFlex .Header__codedamnLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+}
+.Header .Header__ParentFlex .Header__search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+}
+.Header .Header__ParentFlex .Header__sandwich {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15px;
+}
+.Header .Header__ParentFlex .Header__LeftFlex {
+  display: flex;
+  align-items: center;
+  width: 166px;
+  justify-content: space-around;
+  margin-left: 1rem;
+}
+.Header .Header__ParentFlex .Header__codedamnName {
+  font-weight: bold;
+  font-size: 1.25rem;
+}/*# sourceMappingURL=Header.module.css.map */

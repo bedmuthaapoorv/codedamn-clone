@@ -1,0 +1,61 @@
+.LanguageCard {
+  border-color: rgba(99, 102, 241, 0.3);
+  height: 69px;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  width: 90vw;
+}
+
+@media screen and (min-width: 635px) {
+  .LanguageCard {
+    width: 40vw;
+  }
+}
+@media screen and (min-width: 765px) {
+  .LanguageCard {
+    width: 30vw;
+  }
+}
+.LanguageCard:hover {
+  border-color: rgb(99, 102, 241);
+}
+
+.LanguageCard__Left {
+  width: 40px;
+  height: 40px;
+  background-color: hsla(240, 6%, 90%, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.LanguageCard__CardLogo {
+  height: 24px;
+}
+
+.LanguageCard__Right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+.LanguageCard__Right .LanguageCard__CardTitle {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.LanguageCard__Right .LanguageCard__CardDesc {
+  color: rgba(113, 113, 122, 0.95);
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 200px;
+  margin-top: 0.25rem;
+}/*# sourceMappingURL=LanguageCard.module.css.map */

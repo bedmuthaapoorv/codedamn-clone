@@ -1,0 +1,8 @@
+.SearchBox {
+  width: 90vw;
+  max-width: 576px;
+  background-color: white;
+  border-radius: 2px;
+  display: flex;
+  position: absolute;
+}/*# sourceMappingURL=SearchBox.module.css.map */

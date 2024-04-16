@@ -1,0 +1,28 @@
+.Footer {
+    width: 100vw;
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    top: 93vh;
+    background-color: white;
+    align-items: center;
+
+    .Footer__icon {
+        height: 20px;
+    }
+
+    .Footer__iconflex {
+        width: 25vw;
+        height: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-color: rgb(79, 70, 229, 1);
+        border-style: solid;
+        border-bottom: 0px;
+        border-left: 0;
+        border-right: 0;
+    }
+}
